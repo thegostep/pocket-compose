@@ -5,7 +5,7 @@ Requires docker-compose installed on ubuntu machine.
 Clone git repo.  
 `git clone https://github.com/thegostep/pocket-compose.git && cd pocket-compose`  
 
-Create ssl certificates.  
+Create self signed ssl certificates.  
 `sudo openssl req -x509 -newkey rsa:4096 -keyout nginx/ssl/key.pem -out nginx/ssl/cert.pem -days 365 -nodes -subj '/CN=localhost'`
 
 Create Diffie-Hellman group.  
