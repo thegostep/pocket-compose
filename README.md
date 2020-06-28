@@ -2,9 +2,6 @@
 
 Requires docker-compose installed on ubuntu machine.
 
-Install docker image.  
-`docker pull poktnetwork/pocket-core:RC-0.4.0`
-
 Clone git repo.  
 `git clone https://github.com/thegostep/pocket-compose.git .`
 
